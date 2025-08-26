@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quadratic Equation Solver</title>
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h2>Quadratic Equation Solver</h2>
+      <p>Equation: ax² + bx + c = 0</p>
+      <form id="quadForm">
+        <input type="number" id="a" placeholder="a" required>
+        <input type="number" id="b" placeholder="b" required>
+        <input type="number" id="c" placeholder="c" required><br>
+        <button type="submit">Solve</button>
+      </form>
+      <div class="result" id="result"></div>
+    </div>
+
+    <!-- Vite entry point -->
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

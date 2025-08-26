@@ -6,7 +6,6 @@ body {
   align-items: center;
   height: 100vh;
 }
-
 .container {
   background: #fff;
   padding: 20px 30px;
@@ -15,12 +14,7 @@ body {
   width: 350px;
   text-align: center;
 }
-
-h2 {
-  margin-bottom: 15px;
-  color: #333;
-}
-
+h2 { margin-bottom: 15px; color: #333; }
 input {
   padding: 8px;
   width: 60px;
@@ -29,7 +23,6 @@ input {
   border-radius: 6px;
   text-align: center;
 }
-
 button {
   margin-top: 15px;
   padding: 10px 20px;
@@ -40,14 +33,5 @@ button {
   border-radius: 8px;
   cursor: pointer;
 }
-
-button:hover {
-  background: #45a049;
-}
-
-.result {
-  margin-top: 15px;
-  font-size: 16px;
-  color: #222;
-  min-height: 20px;
-}
+button:hover { background: #45a049; }
+.result { margin-top: 15px; font-size: 16px; color: #222; min-height: 20px; }
